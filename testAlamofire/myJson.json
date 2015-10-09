@@ -1,0 +1,796 @@
+{
+    "log": [
+        {
+            "dataPackets": {
+                "msy.mxp.datapacket.PositionWithDOP": {
+                    "speed": 24,
+                    "gpsNumSatellite": 7,
+                    "wgs84degMinFormat": true,
+                    "pdop": 20,
+                    "glonassNumSatellite": 5,
+                    "timestamp": {
+                        "time": 1441483687000
+                    },
+                    "id": 42,
+                    "longitude": 4222.665,
+                    "latitude": 45.83019,
+                    "type": 2,
+                    "fixValid": true,
+                    "glonass": true,
+                    "fixMode": 3,
+                    "course": 120,
+                    "timeValid": true,
+                    "hdop": 10,
+                    "altitude": 50,
+                    "vdop": 17,
+                    "dataPacket": 170
+                },
+                "msy.mxp.datapacket.TripInfo": {
+                    "id": 25,
+                    "partialTravelDist": 99,
+                    "type": 2,
+                    "dataPacket": 102
+                }
+            },
+            "timestamp": {
+                "time": 1441483687000
+            }
+        },
+        {
+            "dataPackets": {
+                "msy.mxp.datapacket.PositionWithDOP": {
+                    "speed": 34,
+                    "gpsNumSatellite": 8,
+                    "wgs84degMinFormat": true,
+                    "pdop": 20,
+                    "glonassNumSatellite": 3,
+                    "timestamp": {
+                        "time": 1441483717000
+                    },
+                    "id": 42,
+                    "longitude": 4222.668,
+                    "latitude": 45.82861,
+                    "type": 2,
+                    "fixValid": true,
+                    "glonass": true,
+                    "fixMode": 3,
+                    "course": 122,
+                    "timeValid": true,
+                    "hdop": 10,
+                    "altitude": 60,
+                    "vdop": 17,
+                    "dataPacket": 170
+                },
+                "msy.mxp.datapacket.TripInfo": {
+                    "id": 25,
+                    "partialTravelDist": 199,
+                    "type": 2,
+                    "dataPacket": 102
+                }
+            },
+            "timestamp": {
+                "time": 1441483717000
+            }
+        },
+        {
+            "dataPackets": {
+                "msy.mxp.datapacket.PositionWithDOP": {
+                    "speed": 4,
+                    "gpsNumSatellite": 6,
+                    "wgs84degMinFormat": true,
+                    "pdop": 22,
+                    "glonassNumSatellite": 4,
+                    "timestamp": {
+                        "time": 1441483747000
+                    },
+                    "id": 42,
+                    "longitude": 4222.669,
+                    "latitude": 45.82824,
+                    "type": 2,
+                    "fixValid": true,
+                    "glonass": true,
+                    "fixMode": 3,
+                    "course": 100,
+                    "timeValid": true,
+                    "hdop": 11,
+                    "altitude": 60,
+                    "vdop": 19,
+                    "dataPacket": 170
+                },
+                "msy.mxp.datapacket.TripInfo": {
+                    "id": 25,
+                    "partialTravelDist": 0,
+                    "type": 2,
+                    "dataPacket": 102
+                }
+            },
+            "timestamp": {
+                "time": 1441483747000
+            }
+        },
+        {
+            "dataPackets": {
+                "msy.mxp.datapacket.PositionWithDOP": {
+                    "speed": 0,
+                    "gpsNumSatellite": 7,
+                    "wgs84degMinFormat": true,
+                    "pdop": 21,
+                    "glonassNumSatellite": 3,
+                    "timestamp": {
+                        "time": 1441483777000
+                    },
+                    "id": 42,
+                    "longitude": 4222.671,
+                    "latitude": 45.82731,
+                    "type": 2,
+                    "fixValid": true,
+                    "glonass": true,
+                    "fixMode": 3,
+                    "course": 0,
+                    "timeValid": true,
+                    "hdop": 11,
+                    "altitude": 50,
+                    "vdop": 18,
+                    "dataPacket": 170
+                },
+                "msy.mxp.datapacket.TripInfo": {
+                    "id": 25,
+                    "partialTravelDist": 166,
+                    "type": 2,
+                    "dataPacket": 102
+                }
+            },
+            "timestamp": {
+                "time": 1441483777000
+            }
+        },
+        {
+            "dataPackets": {
+                "msy.mxp.datapacket.PositionWithDOP": {
+                    "speed": 0,
+                    "gpsNumSatellite": 8,
+                    "wgs84degMinFormat": true,
+                    "pdop": 24,
+                    "glonassNumSatellite": 2,
+                    "timestamp": {
+                        "time": 1441483807000
+                    },
+                    "id": 42,
+                    "longitude": 4222.674,
+                    "latitude": 45.82562,
+                    "type": 2,
+                    "fixValid": true,
+                    "glonass": true,
+                    "fixMode": 3,
+                    "course": 318,
+                    "timeValid": true,
+                    "hdop": 13,
+                    "altitude": 40,
+                    "vdop": 20,
+                    "dataPacket": 170
+                },
+                "msy.mxp.datapacket.TripInfo": {
+                    "id": 25,
+                    "partialTravelDist": 0,
+                    "type": 2,
+                    "dataPacket": 102
+                }
+            },
+            "timestamp": {
+                "time": 1441483807000
+            }
+        },
+        {
+            "dataPackets": {
+                "msy.mxp.datapacket.PositionWithDOP": {
+                    "speed": 0,
+                    "gpsNumSatellite": 6,
+                    "wgs84degMinFormat": true,
+                    "pdop": 22,
+                    "glonassNumSatellite": 4,
+                    "timestamp": {
+                        "time": 1441483837000
+                    },
+                    "id": 42,
+                    "longitude": 4222.674,
+                    "latitude": 45.82564,
+                    "type": 2,
+                    "fixValid": true,
+                    "glonass": true,
+                    "fixMode": 3,
+                    "course": 0,
+                    "timeValid": true,
+                    "hdop": 11,
+                    "altitude": 40,
+                    "vdop": 19,
+                    "dataPacket": 170
+                },
+                "msy.mxp.datapacket.TripInfo": {
+                    "id": 25,
+                    "partialTravelDist": 0,
+                    "type": 2,
+                    "dataPacket": 102
+                }
+            },
+            "timestamp": {
+                "time": 1441483837000
+            }
+        },
+        {
+            "dataPackets": {
+                "msy.mxp.datapacket.PositionWithDOP": {
+                    "speed": 16,
+                    "gpsNumSatellite": 7,
+                    "wgs84degMinFormat": true,
+                    "pdop": 20,
+                    "glonassNumSatellite": 5,
+                    "timestamp": {
+                        "time": 1441483867000
+                    },
+                    "id": 42,
+                    "longitude": 4222.674,
+                    "latitude": 45.82495,
+                    "type": 2,
+                    "fixValid": true,
+                    "glonass": true,
+                    "fixMode": 3,
+                    "course": 196,
+                    "timeValid": true,
+                    "hdop": 10,
+                    "altitude": 20,
+                    "vdop": 17,
+                    "dataPacket": 170
+                },
+                "msy.mxp.datapacket.TripInfo": {
+                    "id": 25,
+                    "partialTravelDist": 247,
+                    "type": 2,
+                    "dataPacket": 102
+                }
+            },
+            "timestamp": {
+                "time": 1441483867000
+            }
+        },
+        {
+            "dataPackets": {
+                "msy.mxp.datapacket.PositionWithDOP": {
+                    "speed": 0,
+                    "gpsNumSatellite": 7,
+                    "wgs84degMinFormat": true,
+                    "pdop": 29,
+                    "glonassNumSatellite": 4,
+                    "timestamp": {
+                        "time": 1441483897000
+                    },
+                    "id": 42,
+                    "longitude": 4222.674,
+                    "latitude": 45.82386,
+                    "type": 2,
+                    "fixValid": true,
+                    "glonass": true,
+                    "fixMode": 3,
+                    "course": 0,
+                    "timeValid": true,
+                    "hdop": 14,
+                    "altitude": 30,
+                    "vdop": 25,
+                    "dataPacket": 170
+                },
+                "msy.mxp.datapacket.TripInfo": {
+                    "id": 25,
+                    "partialTravelDist": 78,
+                    "type": 2,
+                    "dataPacket": 102
+                }
+            },
+            "timestamp": {
+                "time": 1441483897000
+            }
+        },
+        {
+            "dataPackets": {
+                "msy.mxp.datapacket.PositionWithDOP": {
+                    "speed": 40,
+                    "gpsNumSatellite": 8,
+                    "wgs84degMinFormat": true,
+                    "pdop": 19,
+                    "glonassNumSatellite": 4,
+                    "timestamp": {
+                        "time": 1441483927000
+                    },
+                    "id": 42,
+                    "longitude": 4222.673,
+                    "latitude": 45.81965,
+                    "type": 2,
+                    "fixValid": true,
+                    "glonass": true,
+                    "fixMode": 3,
+                    "course": 192,
+                    "timeValid": true,
+                    "hdop": 10,
+                    "altitude": 30,
+                    "vdop": 17,
+                    "dataPacket": 170
+                },
+                "msy.mxp.datapacket.TripInfo": {
+                    "id": 25,
+                    "partialTravelDist": 44,
+                    "type": 2,
+                    "dataPacket": 102
+                }
+            },
+            "timestamp": {
+                "time": 1441483927000
+            }
+        },
+        {
+            "dataPackets": {
+                "msy.mxp.datapacket.PositionWithDOP": {
+                    "speed": 0,
+                    "gpsNumSatellite": 7,
+                    "wgs84degMinFormat": true,
+                    "pdop": 29,
+                    "glonassNumSatellite": 5,
+                    "timestamp": {
+                        "time": 1441483957000
+                    },
+                    "id": 42,
+                    "longitude": 4222.672,
+                    "latitude": 45.81826,
+                    "type": 2,
+                    "fixValid": true,
+                    "glonass": true,
+                    "fixMode": 3,
+                    "course": 0,
+                    "timeValid": true,
+                    "hdop": 14,
+                    "altitude": 30,
+                    "vdop": 25,
+                    "dataPacket": 170
+                },
+                "msy.mxp.datapacket.TripInfo": {
+                    "id": 25,
+                    "partialTravelDist": 99,
+                    "type": 2,
+                    "dataPacket": 102
+                }
+            },
+            "timestamp": {
+                "time": 1441483957000
+            }
+        },
+        {
+            "dataPackets": {
+                "msy.mxp.datapacket.PositionWithDOP": {
+                    "speed": 42,
+                    "gpsNumSatellite": 8,
+                    "wgs84degMinFormat": true,
+                    "pdop": 20,
+                    "glonassNumSatellite": 4,
+                    "timestamp": {
+                        "time": 1441483987000
+                    },
+                    "id": 42,
+                    "longitude": 4222.67,
+                    "latitude": 45.81443,
+                    "type": 2,
+                    "fixValid": true,
+                    "glonass": true,
+                    "fixMode": 3,
+                    "course": 212,
+                    "timeValid": true,
+                    "hdop": 10,
+                    "altitude": 20,
+                    "vdop": 17,
+                    "dataPacket": 170
+                },
+                "msy.mxp.datapacket.TripInfo": {
+                    "id": 25,
+                    "partialTravelDist": 32,
+                    "type": 2,
+                    "dataPacket": 102
+                }
+            },
+            "timestamp": {
+                "time": 1441483987000
+            }
+        },
+        {
+            "dataPackets": {
+                "msy.mxp.datapacket.PositionWithDOP": {
+                    "speed": 0,
+                    "gpsNumSatellite": 7,
+                    "wgs84degMinFormat": true,
+                    "pdop": 19,
+                    "glonassNumSatellite": 3,
+                    "timestamp": {
+                        "time": 1441484017000
+                    },
+                    "id": 42,
+                    "longitude": 4222.669,
+                    "latitude": 45.81373,
+                    "type": 2,
+                    "fixValid": true,
+                    "glonass": true,
+                    "fixMode": 3,
+                    "course": 0,
+                    "timeValid": true,
+                    "hdop": 11,
+                    "altitude": 20,
+                    "vdop": 15,
+                    "dataPacket": 170
+                },
+                "msy.mxp.datapacket.TripInfo": {
+                    "id": 25,
+                    "partialTravelDist": 64,
+                    "type": 2,
+                    "dataPacket": 102
+                }
+            },
+            "timestamp": {
+                "time": 1441484017000
+            }
+        },
+        {
+            "dataPackets": {
+                "msy.mxp.datapacket.PositionWithDOP": {
+                    "speed": 0,
+                    "gpsNumSatellite": 7,
+                    "wgs84degMinFormat": true,
+                    "pdop": 16,
+                    "glonassNumSatellite": 3,
+                    "timestamp": {
+                        "time": 1441484047000
+                    },
+                    "id": 42,
+                    "longitude": 4222.669,
+                    "latitude": 45.81375,
+                    "type": 2,
+                    "fixValid": true,
+                    "glonass": true,
+                    "fixMode": 3,
+                    "course": 0,
+                    "timeValid": true,
+                    "hdop": 9,
+                    "altitude": 20,
+                    "vdop": 13,
+                    "dataPacket": 170
+                },
+                "msy.mxp.datapacket.TripInfo": {
+                    "id": 25,
+                    "partialTravelDist": 0,
+                    "type": 2,
+                    "dataPacket": 102
+                }
+            },
+            "timestamp": {
+                "time": 1441484047000
+            }
+        },
+        {
+            "dataPackets": {
+                "msy.mxp.datapacket.PositionWithDOP": {
+                    "speed": 0,
+                    "gpsNumSatellite": 6,
+                    "wgs84degMinFormat": true,
+                    "pdop": 19,
+                    "glonassNumSatellite": 4,
+                    "timestamp": {
+                        "time": 1441484078000
+                    },
+                    "id": 42,
+                    "longitude": 4222.668,
+                    "latitude": 45.81217,
+                    "type": 2,
+                    "fixValid": true,
+                    "glonass": true,
+                    "fixMode": 3,
+                    "course": 0,
+                    "timeValid": true,
+                    "hdop": 13,
+                    "altitude": 30,
+                    "vdop": 15,
+                    "dataPacket": 170
+                },
+                "msy.mxp.datapacket.TripInfo": {
+                    "id": 25,
+                    "partialTravelDist": 0,
+                    "type": 2,
+                    "dataPacket": 102
+                }
+            },
+            "timestamp": {
+                "time": 1441484078000
+            }
+        },
+        {
+            "dataPackets": {
+                "msy.mxp.datapacket.PositionWithDOP": {
+                    "speed": 38,
+                    "gpsNumSatellite": 5,
+                    "wgs84degMinFormat": true,
+                    "pdop": 23,
+                    "glonassNumSatellite": 4,
+                    "timestamp": {
+                        "time": 1441484108000
+                    },
+                    "id": 42,
+                    "longitude": 4222.667,
+                    "latitude": 45.81056,
+                    "type": 2,
+                    "fixValid": true,
+                    "glonass": true,
+                    "fixMode": 3,
+                    "course": 214,
+                    "timeValid": true,
+                    "hdop": 17,
+                    "altitude": 30,
+                    "vdop": 16,
+                    "dataPacket": 170
+                },
+                "msy.mxp.datapacket.TripInfo": {
+                    "id": 25,
+                    "partialTravelDist": 255,
+                    "type": 2,
+                    "dataPacket": 102
+                }
+            },
+            "timestamp": {
+                "time": 1441484108000
+            }
+        },
+        {
+            "dataPackets": {
+                "msy.mxp.datapacket.PositionWithDOP": {
+                    "speed": 0,
+                    "gpsNumSatellite": 7,
+                    "wgs84degMinFormat": true,
+                    "pdop": 17,
+                    "glonassNumSatellite": 2,
+                    "timestamp": {
+                        "time": 1441484139000
+                    },
+                    "id": 42,
+                    "longitude": 4222.667,
+                    "latitude": 45.80961,
+                    "type": 2,
+                    "fixValid": true,
+                    "glonass": true,
+                    "fixMode": 3,
+                    "course": 0,
+                    "timeValid": true,
+                    "hdop": 11,
+                    "altitude": 40,
+                    "vdop": 14,
+                    "dataPacket": 170
+                },
+                "msy.mxp.datapacket.TripInfo": {
+                    "id": 25,
+                    "partialTravelDist": 78,
+                    "type": 2,
+                    "dataPacket": 102
+                }
+            },
+            "timestamp": {
+                "time": 1441484139000
+            }
+        },
+        {
+            "dataPackets": {
+                "msy.mxp.datapacket.PositionWithDOP": {
+                    "speed": 40,
+                    "gpsNumSatellite": 7,
+                    "wgs84degMinFormat": true,
+                    "pdop": 22,
+                    "glonassNumSatellite": 1,
+                    "timestamp": {
+                        "time": 1441484169000
+                    },
+                    "id": 42,
+                    "longitude": 4222.664,
+                    "latitude": 45.80759,
+                    "type": 2,
+                    "fixValid": true,
+                    "glonass": true,
+                    "fixMode": 3,
+                    "course": 214,
+                    "timeValid": true,
+                    "hdop": 14,
+                    "altitude": 50,
+                    "vdop": 17,
+                    "dataPacket": 170
+                },
+                "msy.mxp.datapacket.TripInfo": {
+                    "id": 25,
+                    "partialTravelDist": 180,
+                    "type": 2,
+                    "dataPacket": 102
+                }
+            },
+            "timestamp": {
+                "time": 1441484169000
+            }
+        },
+        {
+            "dataPackets": {
+                "msy.mxp.datapacket.PositionWithDOP": {
+                    "speed": 0,
+                    "gpsNumSatellite": 7,
+                    "wgs84degMinFormat": true,
+                    "pdop": 23,
+                    "glonassNumSatellite": 3,
+                    "timestamp": {
+                        "time": 1441484199000
+                    },
+                    "id": 42,
+                    "longitude": 4222.663,
+                    "latitude": 45.80539,
+                    "type": 2,
+                    "fixValid": true,
+                    "glonass": true,
+                    "fixMode": 3,
+                    "course": 0,
+                    "timeValid": true,
+                    "hdop": 15,
+                    "altitude": 50,
+                    "vdop": 18,
+                    "dataPacket": 170
+                },
+                "msy.mxp.datapacket.TripInfo": {
+                    "id": 25,
+                    "partialTravelDist": 180,
+                    "type": 2,
+                    "dataPacket": 102
+                }
+            },
+            "timestamp": {
+                "time": 1441484199000
+            }
+        },
+        {
+            "dataPackets": {
+                "msy.mxp.datapacket.PositionWithDOP": {
+                    "speed": 32,
+                    "gpsNumSatellite": 8,
+                    "wgs84degMinFormat": true,
+                    "pdop": 21,
+                    "glonassNumSatellite": 2,
+                    "timestamp": {
+                        "time": 1441484229000
+                    },
+                    "id": 42,
+                    "longitude": 4222.663,
+                    "latitude": 45.80474,
+                    "type": 2,
+                    "fixValid": true,
+                    "glonass": true,
+                    "fixMode": 3,
+                    "course": 130,
+                    "timeValid": true,
+                    "hdop": 11,
+                    "altitude": 40,
+                    "vdop": 18,
+                    "dataPacket": 170
+                },
+                "msy.mxp.datapacket.TripInfo": {
+                    "id": 25,
+                    "partialTravelDist": 46,
+                    "type": 2,
+                    "dataPacket": 102
+                }
+            },
+            "timestamp": {
+                "time": 1441484229000
+            }
+        },
+        {
+            "dataPackets": {
+                "msy.mxp.datapacket.PositionWithDOP": {
+                    "speed": 0,
+                    "gpsNumSatellite": 8,
+                    "wgs84degMinFormat": true,
+                    "pdop": 16,
+                    "glonassNumSatellite": 3,
+                    "timestamp": {
+                        "time": 1441484259000
+                    },
+                    "id": 42,
+                    "longitude": 4222.663,
+                    "latitude": 45.80411,
+                    "type": 2,
+                    "fixValid": true,
+                    "glonass": true,
+                    "fixMode": 3,
+                    "course": 0,
+                    "timeValid": true,
+                    "hdop": 10,
+                    "altitude": 40,
+                    "vdop": 13,
+                    "dataPacket": 170
+                },
+                "msy.mxp.datapacket.TripInfo": {
+                    "id": 25,
+                    "partialTravelDist": 51,
+                    "type": 2,
+                    "dataPacket": 102
+                }
+            },
+            "timestamp": {
+                "time": 1441484259000
+            }
+        },
+        {
+            "dataPackets": {
+                "msy.mxp.datapacket.PositionWithDOP": {
+                    "speed": 12,
+                    "gpsNumSatellite": 7,
+                    "wgs84degMinFormat": true,
+                    "pdop": 21,
+                    "glonassNumSatellite": 1,
+                    "timestamp": {
+                        "time": 1441484290000
+                    },
+                    "id": 42,
+                    "longitude": 4222.663,
+                    "latitude": 45.80296,
+                    "type": 2,
+                    "fixValid": true,
+                    "glonass": true,
+                    "fixMode": 3,
+                    "course": 122,
+                    "timeValid": true,
+                    "hdop": 12,
+                    "altitude": 30,
+                    "vdop": 17,
+                    "dataPacket": 170
+                },
+                "msy.mxp.datapacket.TripInfo": {
+                    "id": 25,
+                    "partialTravelDist": 83,
+                    "type": 2,
+                    "dataPacket": 102
+                }
+            },
+            "timestamp": {
+                "time": 1441484290000
+            }
+        },
+        {
+            "dataPackets": {
+                "msy.mxp.datapacket.PositionWithDOP": {
+                    "speed": 0,
+                    "gpsNumSatellite": 8,
+                    "wgs84degMinFormat": true,
+                    "pdop": 15,
+                    "glonassNumSatellite": 3,
+                    "timestamp": {
+                        "time": 1441484320000
+                    },
+                    "id": 42,
+                    "longitude": 4222.663,
+                    "latitude": 45.80214,
+                    "type": 2,
+                    "fixValid": true,
+                    "glonass": true,
+                    "fixMode": 3,
+                    "course": 224,
+                    "timeValid": true,
+                    "hdop": 9,
+                    "altitude": 30,
+                    "vdop": 12,
+                    "dataPacket": 170
+                },
+                "msy.mxp.datapacket.TripInfo": {
+                    "id": 25,
+                    "partialTravelDist": 0,
+                    "type": 2,
+                    "dataPacket": 102
+                }
+            },
+            "timestamp": {
+                "time": 1441484320000
+            }
+        }
+    ]
+}}
