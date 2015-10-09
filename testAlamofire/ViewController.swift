@@ -24,6 +24,8 @@ class ViewController: UIViewController {
 
     @IBAction func sendJson(sender: UIButton) {
         
+        let postsEndpoint = "http://collector.staging.promutuel.baselinetelematics.com/1.0/t2?imei=84EB182B97CD"
+
         //postJSON("http://telemetry.sandbox.axa.baselinetelematics.com/T2/inbound.php?imei = " +mMacAddress.replace(":", ""), packetJson);
         //http://collector.staging.promutuel.baselinetelematics.com/1.0/t2
         
@@ -41,7 +43,7 @@ class ViewController: UIViewController {
                 
                 // work with dictionary here
                 
-                postJson(jsonDict as! [String : AnyObject])
+                postJson(postsEndpoint,jsonDict: jsonDict as! [String : AnyObject])
                
                 
             } else {
@@ -54,9 +56,8 @@ class ViewController: UIViewController {
         }
     }
     
-    func postJson(jsonDict:[String : AnyObject]) -> Void
+    func postJson(postsEndpoint:String , jsonDict:[String : AnyObject]) -> Void
     {
-        let postsEndpoint = "http://collector.staging.promutuel.baselinetelematics.com/1.0/t2?imei=84EB182B97CD"
 
         Alamofire.request(.POST, postsEndpoint, parameters: jsonDict).responseJSON { response in
             print(response)
