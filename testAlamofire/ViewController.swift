@@ -8,6 +8,7 @@
 
 import UIKit
 import Alamofire
+import SwiftyJSON
 
 class ViewController: UIViewController {
 
@@ -22,39 +23,59 @@ class ViewController: UIViewController {
     }
 
     @IBAction func sendJson(sender: UIButton) {
-        let parameters = ["aa":"1"]
         
         //postJSON("http://telemetry.sandbox.axa.baselinetelematics.com/T2/inbound.php?imei = " +mMacAddress.replace(":", ""), packetJson);
         //http://collector.staging.promutuel.baselinetelematics.com/1.0/t2
-
         
-        let http = "http://telemetry.sandbox.axa.baselinetelematics.com/T2/inbound.php?imei=84EB182B97CD"
-    
-//        Alamofire.request(.POST, http, parameters: parameters, encoding: .JSON).responseJSON {
-//            (res) -> Void in
-//            
-//            print("Res: \(res.description)")
-//            print("Res: \(res.description)")
-//            print("Res: \(res.description)")
-//            
-//            }
-
-        let fileURL = NSBundle.mainBundle().URLForResource("myJson", withExtension: "json")
-            print(fileURL)
         
-        Alamofire.upload(.POST, http, file: fileURL!).responseJSON {
-                        (res) -> Void in
+        
+        let contents =  readFile("myJson", fileType: "json")
+        let jsonData = contents!.dataUsingEncoding(NSUTF8StringEncoding)!
+        
+        
+        
+        do {
+            let jsonDict = try NSJSONSerialization.JSONObjectWithData(jsonData, options: NSJSONReadingOptions(rawValue: 0)) as? NSDictionary
             
-                        print("Res: \(res.description)")
-                        print("Res: \(res.description)")
-                        print("Res: \(res.description)")
-                        
-                        }
+            if let jsonDict = jsonDict {
+                
+                // work with dictionary here
+                
+                postJson(jsonDict as! [String : AnyObject])
+               
+                
+            } else {
+                // more error handling
+            }
+        } catch let error {
+            // error handling
+            
+            print(error)
         }
+    }
+    
+    func postJson(jsonDict:[String : AnyObject]) -> Void
+    {
+        let postsEndpoint = "http://collector.staging.promutuel.baselinetelematics.com/1.0/t2?imei=84EB182B97CD"
 
-
+        Alamofire.request(.POST, postsEndpoint, parameters: jsonDict).responseJSON { response in
+            print(response)
+        }
+    
+    }
+    
+    func readFile(fileName: String, fileType: String) -> String? {
+        let fileRoot = NSBundle.mainBundle().pathForResource(fileName, ofType: fileType)
+        
+        do {
+            let contents = try NSString(contentsOfFile: fileRoot!, usedEncoding: nil) as String
+            return contents
+        } catch {
+            // contents could not be loaded
+        }
+        return nil
+    }
 
 }
-
 
 
